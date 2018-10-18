@@ -14,6 +14,7 @@
 		CEC0B325217816A30002BC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC0B323217816A30002BC58 /* LaunchScreen.storyboard */; };
 		CEC0B330217816A30002BC58 /* CanvasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0B32F217816A30002BC58 /* CanvasAppTests.swift */; };
 		CEC0B33B217816A30002BC58 /* CanvasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0B33A217816A30002BC58 /* CanvasAppUITests.swift */; };
+		CEC0B34B217830FE0002BC58 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0B34A217830FE0002BC58 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEC0B336217816A30002BC58 /* CanvasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC0B33A217816A30002BC58 /* CanvasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasAppUITests.swift; sourceTree = "<group>"; };
 		CEC0B33C217816A30002BC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC0B34A217830FE0002BC58 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				CEC0B31A217816A20002BC58 /* AppDelegate.swift */,
 				CEC0B31C217816A20002BC58 /* ViewController.swift */,
-				CEC0B31E217816A20002BC58 /* Main.storyboard */,
 				CEC0B321217816A30002BC58 /* Assets.xcassets */,
 				CEC0B323217816A30002BC58 /* LaunchScreen.storyboard */,
 				CEC0B326217816A30002BC58 /* Info.plist */,
+				CEC0B31E217816A20002BC58 /* Main.storyboard */,
+				CEC0B34A217830FE0002BC58 /* CanvasViewController.swift */,
 			);
 			path = CanvasApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC0B31D217816A20002BC58 /* ViewController.swift in Sources */,
+				CEC0B34B217830FE0002BC58 /* CanvasViewController.swift in Sources */,
 				CEC0B31B217816A20002BC58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
